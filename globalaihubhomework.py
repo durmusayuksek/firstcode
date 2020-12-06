@@ -12,7 +12,7 @@ for i in range(3):
         break
     else:
         hak = 2 - i
-        print('Invalid name or surname, you have', hak, 'attempts remaining.')
+        print('Invalid first name or last name, you have', hak, 'attempts remaining.')
         if hak == 0:
             print('Please try later.')
 if devam1:
